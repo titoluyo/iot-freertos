@@ -1,8 +1,9 @@
 # Copyright (c) Microsoft Corporation. All rights reserved.
 # SPDX-License-Identifier: MIT
 
+message("++ cmake: coreHTTP")
 set(ROOT_PATH
-    ${CMAKE_CURRENT_LIST_DIR}/../../..
+    ${CMAKE_CURRENT_LIST_DIR}/../..
 )
 
 set(AZURE_IOT_MIDDLEWARE_FREERTOS

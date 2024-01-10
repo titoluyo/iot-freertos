@@ -3,8 +3,9 @@
 
 cmake_minimum_required(VERSION 3.19)
 
+message("++ cmake: azure_iot_middleware_freertos")
 set(ROOT_PATH
-    ${CMAKE_CURRENT_LIST_DIR}/../../..
+    ${CMAKE_CURRENT_LIST_DIR}/../..
 )
 
 set(AZURE_IOT_MIDDLEWARE_FREERTOS
