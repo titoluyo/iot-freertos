@@ -13,5 +13,5 @@ set(COMPONENT_SOURCES
 
 idf_component_register(SRCS ${COMPONENT_SOURCES}
                     INCLUDE_DIRS ${COMPONENT_INCLUDE_DIRS}
-                    REQUIRES freertos nvs_flash spi_flash coreMQTT coreHTTP azure-iot-middleware-freertos azure-sdk-for-c
+                    REQUIRES driver freertos nvs_flash spi_flash coreMQTT coreHTTP azure-iot-middleware-freertos azure-sdk-for-c
                     )
