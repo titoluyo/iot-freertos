@@ -9,6 +9,7 @@ set(COMPONENT_SOURCES
     ${CMAKE_CURRENT_LIST_DIR}/iot_freertos.c
     ${CMAKE_CURRENT_LIST_DIR}/wifi_connect.c
     ${CMAKE_CURRENT_LIST_DIR}/time_sync.c
+    ${CMAKE_CURRENT_LIST_DIR}/led_control.c
 )
 
 idf_component_register(SRCS ${COMPONENT_SOURCES}
