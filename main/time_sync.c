@@ -2,18 +2,11 @@
 
 #include <stdio.h>
 
-#include <stdlib.h>
-#include <stdarg.h>
-#include <string.h>
-
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
-#include "freertos/semphr.h"
-#include "esp_expression_with_stack.h"
 
 #include "esp_sntp.h"
 #include "esp_log.h"
-#include <time.h>
 
 /*-----------------------------------------------------------*/
 

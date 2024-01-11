@@ -2,7 +2,6 @@
 #define LED_CONTROL_H
 
 #include "freertos/FreeRTOS.h"
-#include "driver/gpio.h"
 
 #define LED_PIN_1 2
 #define LED_PIN_2 4
